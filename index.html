@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomecode</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="webimages\PomecodeFavicon.png">
+  <style>
+    /* Add this to make the canvas overlay without disturbing layout */
+    #p5-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none; /* Allows clicks to pass through the canvas */
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-box">
+    <div class="container">
+        <p>Pomecode</p>
+      <img src="webimages/Pomecode 1.png" alt="Pomecode Logo" class="logo">
+      <div id="typing-text" class="typing-text"></div>
+      <div class="social-links">
+        <a href="https://discord.com/your-discord-link" target="_blank"><img src="webimages/discord_icon.png" alt="Discord"></a>
+        <a href="https://linkedin.com/your-linkedin-link" target="_blank"><img src="webimages/linkedin_icon.png" alt="LinkedIn"></a>
+        <a href="https://instagram.com/your-instagram-link" target="_blank"><img src="webimages/instagram_icon.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="seed.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+@font-face {
+  font-family: 'AstroSpace';
+  src: url('font/AstroSpace.otf') format('opentype');
+}
+
+body {
+  background-color: #510A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+  font-family: 'AstroSpace', sans-serif;
+}
+
+.typing-text {
+  font-family: 'AstroSpace', sans-serif;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+  .container {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .social-links img {
+    width: 40px;
+    margin: 0 15px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+  }
+  
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Tablet view adjustments */
+    .logo {
+      width: 120px;
+    }
+  
+    .typing-text {
+      font-size: 1.2em;
+    }
+  
+    .social-links img {
+      width: 35px;
+      margin: 0 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Mobile view adjustments */
+    .logo {
+      width: 100px;
+      margin-bottom: 15px;
+    }
+  
+    .typing-text {
+      font-size: 1em;
+      margin: 15px 0;
+    }
+  
+    .social-links img {
+      width: 30px;
+      margin: 0 8px;
+    }
+  
+    .social-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
