@@ -2,7 +2,7 @@ let acorns = [];
 let acornImg;
 
 function preload() {
-  acornImg = loadImage('webimages/seed_icon.png'); // Update with the correct path
+  acornImg = loadImage('webimages/redseed_icon.png'); // Update with the correct path
 }
 
 function setup() {
